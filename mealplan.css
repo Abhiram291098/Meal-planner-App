@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url("https://logo.com/image-cdn/images/kts928pd/production/bf0bee1632f59363afb4be74978bb5d5bd7293ea-404x397.png?w=1080&q=72&fm=webp")
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#meal-planner {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}

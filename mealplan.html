@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness and Meal Planner App</title>
+    <link rel="stylesheet" href="mealplan.css">
+    
+</head>
+<body>
+    <script src="mealplan.js" defer></script>
+    <h1>Fitness and Meal Planner App</h1>
+    <form id="meal-form">
+        <label>Day:
+            <select id="day">
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+            </select>
+
+        </label>
+        <label>Meal Type:
+            <input type="text" id="meal-type" placeholder="Breakfast/lunch">
+        </label>
+        <label>food:
+            <input type="text" id="food" placeholder="Item name">
+        </label>
+        <label>Calories:
+            <input type="number" id="calories" placeholder="Calories">
+        </label><br><br><br>
+        <button type="submit">Add Meal</button>
+    </form>
+    <div id="meal-planner"></div>
+    
+</body>
+</html>
