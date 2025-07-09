@@ -31,4 +31,4 @@ It allows users to:
 ## 🎯 How to Use:
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/meal-planner-app.git
+git clone https://github.com/Abhiram291098/meal-planner-app.git
